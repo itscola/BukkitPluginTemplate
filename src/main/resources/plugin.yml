@@ -1,0 +1,13 @@
+name: BukkitPluginTemplate
+version: 1.0
+author: [white_cola]
+depend:
+  - HiPlugin
+main: top.whitecola.plugin.Main
+commands: 
+  pl:
+   usage: /pl [ChildCmd]
+permissions:
+  pl.version:
+    default: true
+
